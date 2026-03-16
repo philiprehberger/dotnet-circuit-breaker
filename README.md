@@ -106,6 +106,12 @@ catch (CircuitBrokenException ex)
 | `OpenedAt` | When the circuit was opened |
 | `RemainingDuration` | Time until the circuit transitions to half-open |
 
+## Development
+
+```bash
+dotnet build src/Philiprehberger.CircuitBreaker.csproj --configuration Release
+```
+
 ## License
 
 MIT
