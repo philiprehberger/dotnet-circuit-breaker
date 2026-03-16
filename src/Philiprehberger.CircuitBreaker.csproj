@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Philiprehberger.CircuitBreaker</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Philip Rehberger</Authors>
+    <Description>Standalone circuit breaker with half-open probing, health tracking, and event callbacks</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/philiprehberger/dotnet-circuit-breaker</RepositoryUrl>
+    <PackageTags>circuit-breaker;resilience;fault-tolerance;retry;patterns</PackageTags>
+  </PropertyGroup>
+
+</Project>
