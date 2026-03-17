@@ -6,7 +6,7 @@
 
 Standalone circuit breaker with half-open probing, health tracking, and event callbacks.
 
-## Install
+## Installation
 
 ```bash
 dotnet add package Philiprehberger.CircuitBreaker
