@@ -7,9 +7,9 @@
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageId>Philiprehberger.CircuitBreaker</PackageId>
-    <Version>0.1.6</Version>
+    <Version>0.2.0</Version>
     <Authors>Philip Rehberger</Authors>
-    <Description>Standalone circuit breaker with half-open probing, health tracking, and event callbacks.</Description>
+    <Description>Standalone circuit breaker with sliding window failure rate, fallback support, half-open probing, and event callbacks.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/philiprehberger/dotnet-circuit-breaker</RepositoryUrl>
     <RepositoryType>git</RepositoryType>

@@ -17,6 +17,7 @@ jobs:
           dotnet-version: '8.0.x'
       - run: dotnet restore src/Philiprehberger.CircuitBreaker.csproj
       - run: dotnet build src/Philiprehberger.CircuitBreaker.csproj --configuration Release --no-restore
+      - run: dotnet test tests/Philiprehberger.CircuitBreaker.Tests/Philiprehberger.CircuitBreaker.Tests.csproj --configuration Release --no-restore
 
   publish:
     needs: build

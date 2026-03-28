@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 (2026-03-27)
+
+- Add sliding window failure rate monitoring with configurable window size
+- Add fallback support for graceful degradation when circuit is open
+- Add configurable success threshold for half-open to closed transition
+- Add jitter on open duration to prevent thundering herd recovery
+
 ## 0.1.6 (2026-03-23)
 
 - Sync .csproj description with README
